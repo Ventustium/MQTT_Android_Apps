@@ -28,7 +28,7 @@ class DriverActivity1 : AppCompatActivity() {
         mqttClient.setCallBack(arrayOf(topic),::updateButton)
     }
 
-    private fun updateButton(topic: String, message : MqttMessage){
+    private fun updateButton(topic : String, message : MqttMessage){
         val heartrate = String(message.payload)
 
         findViewById<TextView>(R.id.textViewDriver).apply{

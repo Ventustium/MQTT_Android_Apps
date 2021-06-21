@@ -71,15 +71,15 @@ class MqttClient (private val context: Context) {
       })
    }
 
-   fun disconnect() {
-      if (client.isConnected)
-         client.disconnect()
-   }
-
-   fun close(){
-      client.apply {
-         unregisterResources()
-         close()
-      }
-   }
+//   fun disconnect() {
+//      if (client.isConnected)
+//         client.disconnect()
+//   }
+//
+//   fun close(){
+//      client.apply {
+//         unregisterResources()
+//         close()
+//      }
+//   }
 }
