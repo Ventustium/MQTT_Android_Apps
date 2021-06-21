@@ -1,4 +1,4 @@
-package com.ventustiun.mqtt
+package com.ventustium.mqtt
 
 import android.content.Context
 import android.util.Log
