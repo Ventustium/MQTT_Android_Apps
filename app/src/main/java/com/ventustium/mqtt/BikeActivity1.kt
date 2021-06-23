@@ -37,7 +37,8 @@ class BikeActivity1 : AppCompatActivity() {
             "/bike/power",
             "/bike/speed",
             "/bike/range",
-            "/bike/estimation"
+            "/bike/estimation",
+            "count"
             )
         mqttClient.connect(broker)
 
@@ -47,6 +48,12 @@ class BikeActivity1 : AppCompatActivity() {
 
     private fun updateButton(topic: String, message: MqttMessage) {
         when (topic) {
+            "count" -> {
+                findViewById<TextView>(R.id.count).apply {
+                    val msg = "Ventustium Count" + String(message.payload)
+                    text = msg
+                }
+            }
             "/driver/heartrate" -> {
                 findViewById<TextView>(R.id.textViewDriver).apply {
                     val msg = String(message.payload) + " BPM"
