@@ -10,6 +10,7 @@
         android:id="@+id/textViewDriver6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:text="@string/no_data"
         app:layout_constraintBottom_toBottomOf="@+id/textView17"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0"
@@ -22,6 +23,7 @@
         android:id="@+id/textViewDriver5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:text="@string/no_data"
         app:layout_constraintBottom_toBottomOf="@+id/textView16"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0"
@@ -60,6 +62,7 @@
         android:id="@+id/textViewDriverTemp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:text="@string/no_data"
         app:layout_constraintBottom_toBottomOf="@+id/textView15"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0"
@@ -99,6 +102,7 @@
         android:id="@+id/textViewDriver"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:text="@string/no_data"
         app:layout_constraintBottom_toBottomOf="@+id/textView10"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.05"
@@ -137,25 +141,27 @@
         android:id="@+id/textViewBikeFW"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/_34_psi"
+        android:text="@string/no_data"
         app:layout_constraintBottom_toBottomOf="@+id/textView7"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.003"
         app:layout_constraintStart_toStartOf="@+id/textViewBikeStatus"
         app:layout_constraintTop_toTopOf="@+id/textView7"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.0"
+        tools:text="@string/_34_psi" />
 
     <TextView
         android:id="@+id/textViewBikeCurrent"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/_10a"
+        android:text="@string/no_data"
         app:layout_constraintBottom_toBottomOf="@+id/textView12"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.318"
+        app:layout_constraintHorizontal_bias="0.357"
         app:layout_constraintStart_toEndOf="@+id/textView12"
         app:layout_constraintTop_toTopOf="@+id/textView12"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.0"
+        tools:text="@string/current_consumption" />
 
     <TextView
         android:id="@+id/textView9"
@@ -174,13 +180,14 @@
         android:id="@+id/textViewBikeVoltage"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/_48v"
+        android:text="@string/no_data"
         app:layout_constraintBottom_toBottomOf="@+id/textView11"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/textViewBikeBattery"
         app:layout_constraintTop_toTopOf="@+id/textView11"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.0"
+        tools:text="@string/battery_voltage" />
 
     <TextView
         android:id="@+id/textView7"
@@ -199,13 +206,14 @@
         android:id="@+id/textViewBikeStatus"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/status"
+        android:text="@string/no_data"
         app:layout_constraintBottom_toBottomOf="@+id/textView6"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.206"
         app:layout_constraintStart_toEndOf="@+id/textView6"
         app:layout_constraintTop_toTopOf="@+id/textView6"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.0"
+        tools:text="@string/bike_status" />
 
     <TextView
         android:id="@+id/textView23"
@@ -237,25 +245,27 @@
         android:id="@+id/textViewBikeSpeed"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/_0_km_h"
+        android:text="@string/no_data"
         app:layout_constraintBottom_toBottomOf="@+id/textView28"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/textViewBikePower"
         app:layout_constraintTop_toTopOf="@+id/textView28"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.0"
+        tools:text="@string/bike_speed" />
 
     <TextView
         android:id="@+id/textViewBikeBattery"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/_77"
+        android:text="@string/no_data"
         app:layout_constraintBottom_toBottomOf="@+id/textView9"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/textViewBikeBW"
         app:layout_constraintTop_toTopOf="@+id/textView9"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.0"
+        tools:text="@string/_77" />
 
     <TextView
         android:id="@+id/textView33"
@@ -274,13 +284,14 @@
         android:id="@+id/textViewEstimation"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/_150km"
+        android:text="@string/no_data"
         app:layout_constraintBottom_toBottomOf="@+id/textView33"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/textViewBikeRange"
         app:layout_constraintTop_toTopOf="@+id/textView33"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.0"
+        tools:text="@string/remaining_range" />
 
     <TextView
         android:id="@+id/textView31"
@@ -338,37 +349,40 @@
         android:id="@+id/textViewBikeRange"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/_0_km_h"
+        android:text="@string/no_data"
         app:layout_constraintBottom_toBottomOf="@+id/textView31"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/textViewBikeSpeed"
         app:layout_constraintTop_toTopOf="@+id/textView31"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.0"
+        tools:text="@string/total_range" />
 
     <TextView
         android:id="@+id/textViewBikePower"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/_480w"
+        android:text="@string/no_data"
         app:layout_constraintBottom_toBottomOf="@+id/textView23"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/textViewBikeCurrent"
         app:layout_constraintTop_toTopOf="@+id/textView23"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.0"
+        tools:text="@string/power_consumption" />
 
     <TextView
         android:id="@+id/textViewBikeBW"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/_36_psi"
+        android:text="@string/no_data"
         app:layout_constraintBottom_toBottomOf="@+id/textView8"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/textViewBikeFW"
         app:layout_constraintTop_toTopOf="@+id/textView8"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.0"
+        tools:text="@string/_36_psi" />
 
     <TextView
         android:id="@+id/textView6"

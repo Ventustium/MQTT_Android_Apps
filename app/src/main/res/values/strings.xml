@@ -38,9 +38,10 @@
     <string name="_34_psi">34 psi</string>
     <string name="_10a">10A</string>
     <string name="_48v">48V</string>
-    <string name="_77">77%</string>
+    <string name="_77">1600Wh</string>
     <string name="_150km">150KM</string>
     <string name="_480w">480W</string>
     <string name="_36_psi">36 psi</string>
+    <string name="no_data">(no data)</string>
 
 </resources>
