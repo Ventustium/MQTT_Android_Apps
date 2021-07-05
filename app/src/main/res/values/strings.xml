@@ -44,5 +44,6 @@
     <string name="_36_psi">36 psi</string>
     <string name="no_data">(no data)</string>
     <string name="ventustium_count_1000000000000000000">Ventustium Count 1000000000000000000</string>
+    <string name="ventustium_count_no_data">Ventustium Count : (no data)</string>
 
 </resources>
