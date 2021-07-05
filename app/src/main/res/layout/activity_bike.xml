@@ -409,6 +409,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textViewEstimation"
-        tools:text="@string/ventustium_count_1000000000000000000" />
+        tools:text="Ventustium Count : (no data)" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

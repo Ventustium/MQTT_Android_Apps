@@ -50,7 +50,7 @@ class BikeActivity1 : AppCompatActivity() {
         when (topic) {
             "count" -> {
                 findViewById<TextView>(R.id.count).apply {
-                    val msg = "Ventustium Count" + String(message.payload)
+                    val msg = "Ventustium Count: " + String(message.payload)
                     text = msg
                 }
             }
