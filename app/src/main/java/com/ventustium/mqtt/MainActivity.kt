@@ -28,7 +28,7 @@ class MainActivity : AppCompatActivity() {
         connectAndSubscribe()
 
         findViewById<Button>(R.id.button3).setOnClickListener {
-            val i = Intent(this, DriverActivity1::class.java).apply {
+            val i = Intent(this, BikeActivity1::class.java).apply {
 
             }
             startActivity(i)

@@ -1,5 +1,5 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <string name="app_name">MQTT</string>
+    <string name="app_name">Ventustium MQTT</string>
     <string name="title_activity_driver1" tools:ignore="Typos">DriverActivity1</string>
     <!-- Strings used for fragments for navigation -->
     <string name="first_fragment_label">First Fragment</string>
@@ -24,5 +24,26 @@
     <string name="send">Send</string>
     <string name="save">Save</string>
     <string name="message">Message</string>
+    <string name="_0_km_h">0 KM/H</string>
+    <string name="remaining_range">Remaining Range</string>
+    <string name="total_range">Total Range</string>
+    <string name="power_consumption">Power Consumption</string>
+    <string name="bike_speed">Bike Speed</string>
+    <string name="battery_voltage">Battery Voltage</string>
+    <string name="current_consumption">Current Consumption</string>
+    <string name="battery_remaining">Battery Remaining</string>
+    <string name="bike_status">Bike Status</string>
+    <string name="front_wheel">Front Wheel</string>
+    <string name="back_wheel">Back Wheel</string>
+    <string name="_34_psi">34 psi</string>
+    <string name="_10a">10A</string>
+    <string name="_48v">48V</string>
+    <string name="_77">1600Wh</string>
+    <string name="_150km">150KM</string>
+    <string name="_480w">480W</string>
+    <string name="_36_psi">36 psi</string>
+    <string name="no_data">(no data)</string>
+    <string name="ventustium_count_1000000000000000000">Ventustium Count 1000000000000000000</string>
+    <string name="ventustium_count_no_data">Ventustium Count : (no data)</string>
 
 </resources>

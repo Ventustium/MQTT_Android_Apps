@@ -12,12 +12,14 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher"
         android:supportsRtl="true"
-        android:theme="@style/Theme.MQTT">
-        <activity
-            android:name=".DriverActivity1"
-            android:label="@string/title_activity_driver1"
-            android:theme="@style/Theme.MQTT.NoActionBar" />
-        <activity android:name=".MainActivity">
+        android:theme="@style/Theme.MQTT"
+        android:fullBackupContent="true">
+<!--        <activity-->
+<!--            android:name=".DriverActivity1"-->
+<!--            android:label="@string/title_activity_driver1"-->
+<!--            android:theme="@style/Theme.MQTT.NoActionBar" />-->
+
+        <activity android:name=".BikeActivity1">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
